@@ -23,7 +23,7 @@
     "demo": [],
     "test": [],
     "images": [
-        "static/description/banner.png",
+        "static/src/img/icon.png",
     ],
     "assets": {
     },
