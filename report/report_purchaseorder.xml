@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+<template id="report_purchaseorder_inherit" inherit_id="sale.report_saleorder_document">
+    <xpath expr="//t[@t-foreach='doc.order_line']" position="replace">
+        <t t-foreach="doc.get_order_lines_by_category()" t-as="category_lines">
+            <tr>
+                <td colspan="6" style="font-size: 20px;font-weight:bold; padding-top: 10px;">
+                    <t t-esc="category_lines[0].name or 'Sans catégorie'"/>
+                </td>
+            </tr>
+            <t t-foreach="category_lines[1]" t-as="l">
+                <tr>
+                    <td><t t-esc="l.name"/></td>
+                    <td><t t-esc="l.product_uom_qty"/></td>
+                    <td><t t-esc="l.price_unit"/></td>
+                    <td><t t-esc="l.price_subtotal"/></td>
+                </tr>
+            </t>
+        </t>
+    </xpath>
+</template>
+
+
+
+    </data>
+</odoo>
