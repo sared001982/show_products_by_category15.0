@@ -25,6 +25,10 @@
     "images": [
         "static/src/img/icon.png",
         "static/description/icon.png",
+        "static/description/screenshot1.png",
+        "static/description/screenshot2.png",
+        "static/description/screenshot3.png",
+        "static/description/screenshot4.png",
     ],
     "assets": {
     },
