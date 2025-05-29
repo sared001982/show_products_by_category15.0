@@ -3,7 +3,7 @@
 
 
 {
-    'name': 'SHOW PRODUCTS GROUPED BY CATEGORY ON SALE ORDER REPORT ',
+    'name': 'Print Sale Orders Grouped by Product Category ',
 "author": "REDOUANE SAKTY",
     "version": "15.0.1.0",
     'category': 'SALE',

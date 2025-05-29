@@ -1,63 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Grouped Sale Order by Product Category</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Roboto, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      padding: 20px;
-      background-color: #fff;
-    }
-    h1 {
-      color: #007bff;
-    }
-    h2 {
-      color: #444;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 5px;
-    }
-    ul {
-      margin-left: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Print Sale Orders Grouped by Product Category</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .screenshot {
+            width: 100%;
+            max-width: 600px;
+            margin: 1rem 0;
+            border: 1px solid #ccc;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 1.5rem;
+        }
+        .info {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-  <h1>SHOW PRODUCTS GROUPED BY CATEGORY ON SALE ORDER REPORT</h1>
-  <p>
-    This Odoo module enhances the Sale Order printout by grouping order lines based on the
-    product categories. For each group, a clear header with the category name is displayed,
-    improving readability and providing better organization in your printed documents.
-  </p>
 
-  <h2>Key Features</h2>
-  <ul>
-    <li>Groups sale order lines by product category</li>
-    <li>Displays the category name as a section header</li>
-    <li>Compatible with Odoo 15</li>
-    <li>No configuration required – works out of the box</li>
-    <li>Improves clarity in sale order documents for customers and internal teams</li>
-  </ul>
+    <h1>🧾 Print Sale Orders Grouped by Product Category</h1>
+    <img class="screenshot" src="static/description/cover.png" alt="Module Cover">
 
-  <h2>Use Case</h2>
-  <p>
-    Imagine a business that sells products in multiple categories (e.g., Electronics, Furniture, Office Supplies).
-    With this module, customers receive sale orders that are easier to understand, with items grouped under their respective categories.
-  </p>
+    <p>
+        This Odoo module enhances the default sale order report by grouping sale order lines based on their
+        <strong>Product Category</strong>. Each category is printed as a separate section with its name as a header,
+        making the report more structured and readable, especially for orders with many products.
+    </p>
 
-  <h2>Installation</h2>
-  <ol>
-    <li>Download or clone the module into your Odoo 15 custom addons path</li>
-    <li>Update the app list</li>
-    <li>Install the module from the Odoo interface</li>
-  </ol>
-<h2>Screenshots:</h2>
-<img src="screenshot1.png" alt="Product Categories View" style="max-width:100%;"/>
-  <h2>Contact & Support</h2>
-<p>For support, contact <a href="mailto:sared001@gmail.com">Redouane SAKTY</a></p>
+    <h2>🌟 Features</h2>
+    <ul>
+        <li>Group sale order lines by product category</li>
+        <li>Display category names as section headers in the report</li>
+        <li>Clean and professional PDF layout</li>
+        <li>No changes to existing workflows—just install and print</li>
+    </ul>
+
+    <h2>🧩 Compatibility</h2>
+    <p>Tested on <strong>Odoo 15.0</strong> Community and Enterprise editions.</p>
+
+    <h2>🖼️ Screenshots</h2>
+    <img class="screenshot" src="static/description/screenshot1.png" alt="Grouped Sale Order Example">
+    <img class="screenshot" src="static/description/screenshot2.png" alt="Category Header Example">
+
+    <h2>📦 Installation</h2>
+    <p>
+        Simply install the module like any other. No configuration needed.
+    </p>
+
+    <h2>🧑‍💻 Usage</h2>
+    <p>
+        After installation, go to any Sale Order and click on <strong>Print &rarr; Quotation / Order</strong>.
+        The report will be generated with lines grouped by category.
+    </p>
+
+    <div class="info">
+        <p><strong>Author:</strong> RED DEVOPS</p>
+        <p><strong>License:</strong> OPL-1</p>
+      <p>For support, contact <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+
+        <p><strong>Support:</strong> <a href="mailto:sared001@gmail.com">Redouane SAKTY</a></p>
+    </div>
+
 </body>
 </html>
-
-
