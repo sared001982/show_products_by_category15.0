@@ -24,6 +24,7 @@
     "test": [],
     "images": [
         "static/src/img/icon.png",
+        "static/description/icon.png",
     ],
     "assets": {
     },
